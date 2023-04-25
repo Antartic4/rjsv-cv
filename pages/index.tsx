@@ -113,7 +113,7 @@ export default function Home() {
                   <h2 className="text-md font-medium h-[16px]">Hobbies</h2>
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-xs">Reading, Dancing, Video Games, Exercises, Sports, Music</span>
+                  <span className="text-xs">Reading, Dancing, Video Games, Exercises, Sports</span>
                 </div>
               </div>
             </div>
