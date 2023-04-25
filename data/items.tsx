@@ -64,9 +64,9 @@ export const employments: DetailInterface[] = [
         year: "2021-2023",
         description: "",
         list: [
-            "Creating Web Application for medical industry.",
+            "Developing Web Application for medical industry.",
             "Creating Websites for Non Profit and Physicians",
-            "Building relationships with clients.",
+            "Building relationships with clients..",
             "Managing client relationships.",
         ]
     },
@@ -75,9 +75,9 @@ export const employments: DetailInterface[] = [
         year: "2018-2020",
         list: [
             "Working as Full-Stack Web Developer.",
-            "Building an electoral roll aplication with PHP, MySQL, HTML5/CSS3 and Javascript.",
-            "Building variety of websites with CMS Software.",
-            "Building a ERP for ecommerse sites, law firms, dealers.",
+            "Creating an electoral roll application with PHP, MySQL, HTML5/CSS3 and JavaScript.",
+            "Developing a variety of websites with CMS Software.",
+            "Building an ERP for ecommerce sites, law firms and dealers.",
         ]
     },
     {
@@ -85,9 +85,9 @@ export const employments: DetailInterface[] = [
         year: "2017-mar. to 2017-nov.",
         list: [
             "Working as Front-End Web Developer.",
-            "Building mobile applications with Ionic and Cordova.",
-            "Building a CRM for a mobile application with Angular.",
             "Working with a team of developer.",
+            "Building mobile applications with Ionic and Cordova.",
+            "Maintaining a CRM for a mobile application with Angular.",
         ]
     },
     {
