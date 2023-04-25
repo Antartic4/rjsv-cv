@@ -75,7 +75,7 @@ export const employments: DetailInterface[] = [
         year: "2018-2020",
         list: [
             "Working as Full-Stack Web Developer.",
-            "Building with as a Lead developer an electoral roll aplication with PHP, MySQL, HTML5/CSS3 and Javascript.",
+            "Building an electoral roll aplication with PHP, MySQL, HTML5/CSS3 and Javascript.",
             "Building variety of websites with CMS Software.",
             "Building a ERP for ecommerse sites, law firms, dealers.",
         ]
@@ -85,8 +85,8 @@ export const employments: DetailInterface[] = [
         year: "2017-mar. to 2017-nov.",
         list: [
             "Working as Front-End Web Developer.",
-            "Building a mobile application with Ionic.",
-            "Building a CRM for the mobile application with Angular.",
+            "Building mobile applications with Ionic and Cordova.",
+            "Building a CRM for a mobile application with Angular.",
             "Working with a team of developer.",
         ]
     },
