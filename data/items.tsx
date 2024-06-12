@@ -1,228 +1,176 @@
 export interface CoursesInterface {
-    name: string,
-    location: string,
-    author?: string,
-    accreditation: string,
+  name: string;
+  location: string;
+  author?: string;
+  accreditation: string;
 }
 
 export const courses: CoursesInterface[] = [
-    {
-        name: 'JavaScript: Understanding the Weird Parts',
-        location: 'Udemi',
-        author: "Anthony Alicea",
-        accreditation: "Certificate",
-    },
-    {
-        name: 'Vue.js The complete guide',
-        location: 'Udemi',
-        author: "Maximilian Schwarzmüller",
-        accreditation: "Certificate",
-    },
-    {
-        name: 'Angular The Complete Guide',
-        location: 'Udemi',
-        author: "Maximilian Schwarzmüller",
-        accreditation: "Certificate",
-    },
-    {
-        name: 'Illustrator CC MasterClass',
-        location: 'Udemi',
-        author: "Martin Perhiniak",
-        accreditation: "Certificate",
-    },
-    {
-        name: 'Photoshop The Platform\'s Biggest & Most Popular Photoshop Course',
-        location: 'Udemi',
-        author: "Manfred Werner",
-        accreditation: "Certificate",
-    },
-    {
-        name: 'Conversation and gramatic in English',
-        location: 'Dominico Americano',
-        accreditation: "Certificate",
-    },
-]
+  {
+    name: 'Next Amazona: Build ECommerce Website Like Amazon By Next.JS',
+    location: 'Udemy',
+    author: 'Bassir Jafarzadeh',
+    accreditation: 'Certificate',
+  },
+  {
+    name: 'AWS Cloud Quest: Cloud Practitioner',
+    location: 'AWS Training',
+    author: 'Amazon Web Services Training and Certification',
+    accreditation: 'Certificate',
+  },
+];
 
 export interface DetailInterface {
-    name: string,
-    year: string,
-    description?: string,
-    list?: string[],
+  name: string;
+  year: string;
+  description?: string;
+  gpa?: string;
+  list?: string[];
 }
 
 export const educations: DetailInterface[] = [
-    {
-        name: 'Psychology, Universidad Católica de Sando Domingo',
-        year: "2014-2017",
-        description: "Graduated with Honor",
-    },
-]
+  {
+    name: 'Nova Southeastern University - NSU',
+    year: '2023 - Present',
+    description: 'Masters of Science in Computer Science',
+    gpa: 'GPA: 3.5',
+  },
+  {
+    name: 'Universidad Iberoamericana - UNIBE',
+    year: '2018 - 2022',
+    description: 'ICT Engineering Degree.',
+    gpa: 'GPA: 3.6',
+  },
+];
 
 export const employments: DetailInterface[] = [
-    {
-        name: 'Freelancer',
-        year: "2021-2023",
-        description: "",
-        list: [
-            "Developing Web Application for medical industry.",
-            "Creating Websites for Non Profit and Physicians",
-            "Building relationships with clients.",
-            "Managing client relationships.",
-        ]
-    },
-    {
-        name: 'Bits & Bytes Media',
-        year: "2018-2020",
-        list: [
-            "Working as Full-Stack Web Developer.",
-            "Creating an electoral roll application with PHP, MySQL, HTML5/CSS3 and JavaScript.",
-            "Developing a variety of websites with CMS Software.",
-            "Building an ERP for ecommerce sites, law firms and dealers.",
-        ]
-    },
-    {
-        name: 'Media Revolution',
-        year: "2017-mar. to 2017-nov.",
-        list: [
-            "Working as Front-End Web Developer.",
-            "Building mobile applications with Ionic and Cordova.",
-            "Maintaining a CRM for a mobile application with Angular.",
-            "Working with a team of developer.",
-        ]
-    },
-    {
-        name: 'Berry Dominicana',
-        year: "2013-2015",
-        list: [
-            "Service Order Keyer.",
-        ]
-    },
-]
-
+  {
+    name: 'Peravia Industrial - La Famosa ',
+    year: '2021 - Present',
+    description: 'Programmer Analyst',
+    list: [
+      'Led FullStack Calidad V2.0 (React, Next.JS, Node.js, Express.js, MongoDB) with focus on user experience and performance (100% engagement increase).',
+      'Developed data analysis tools reducing processing time by 50%.',
+      'Prioritized user-centric design in FullStack Calidad V2.0, achieving accessibile and intuitive navigation.',
+      'Agile project management ensured timely delivery.',
+    ],
+  },
+  {
+    name: 'Peravia Industrial - La Famosa',
+    year: '2017 - 2020',
+    list: [
+      'Built Siembra V2.0 (C#, MSSQL) improving user experience and streamlining workflows with Agile methodologies.',
+      'Optimized Siembra V2.0 performance through innovative solutions and database expertise.',
+      'Collaborated with cross-functional team.',
+    ],
+  },
+  // {
+  //   name: 'Digital Media Lab - Xavier University',
+  //   year: '2014 - 2015',
+  //   list: [
+  //     'Created and refined educational videos for faculty and students, expanding the multimedia resources of the institution.',
+  //     'Instructed students in advanced recording and editing software, contributing to a more skilled user base in the lab.',
+  //     'Expanded software proficiency by learning Adobe After Effects.',
+  //   ],
+  // },
+];
 
 export interface ItemInterface {
-    name: string,
-    score: string
+  name: string;
+  score: string;
 }
 
 export const programingLanguages: ItemInterface[] = [
-    {
-        name: 'Javascript',
-        score: "w-[100%]"
-    },
-    {
-        name: 'SQL',
-        score: "w-[100%]"
-    },
-    {
-        name: 'Python',
-        score: "w-[70%]"
-    },
-    {
-        name: 'PHP',
-        score: "w-[60%]"
-    },
-]
+  {
+    name: 'Javascript',
+    score: 'w-[100%]',
+  },
+  {
+    name: 'SQL',
+    score: 'w-[100%]',
+  },
+  {
+    name: 'Python',
+    score: 'w-[75%]',
+  },
+];
 
 export const frontEnd: ItemInterface[] = [
-    {
-        name: 'React.js',
-        score: "w-[90%]"
-    },
-    {
-        name: 'Vue.js',
-        score: "w-[100%]"
-    },
-    {
-        name: 'Angular',
-        score: "w-[100%]"
-    },
-    {
-        name: 'Next.js',
-        score: "w-[90%]"
-    },
-    {
-        name: 'Typescript',
-        score: "w-[80%]"
-    },
-    {
-        name: 'Vite',
-        score: "w-[70%]"
-    },
-    {
-        name: 'Tailwind CSS',
-        score: "w-[95%]"
-    },
-]
+  {
+    name: 'React.js',
+    score: 'w-[90%]',
+  },
+  {
+    name: 'Next.js',
+    score: 'w-[95%]',
+  },
+  {
+    name: 'Typescript',
+    score: 'w-[70%]',
+  },
+  {
+    name: 'Tailwind CSS',
+    score: 'w-[95%]',
+  },
+  {
+    name: 'MUI',
+    score: 'w-[80%]',
+  },
+];
 
 export const backEnd: ItemInterface[] = [
-    {
-        name: 'Nodejs',
-        score: "w-[100%]"
-    },
-    {
-        name: 'Express.js',
-        score: "w-[100%]"
-    },
-    {
-        name: 'MySQL',
-        score: "w-[100%]"
-    },
-    {
-        name: 'PostgreSQL',
-        score: "w-[80%]"
-    },
-    {
-        name: 'Babel',
-        score: "w-[80%]"
-    },
-    {
-        name: 'Linux',
-        score: "w-[80%]"
-    },
-    {
-        name: 'Nginx',
-        score: "w-[80%]"
-    },
-    {
-        name: 'Apache',
-        score: "w-[70%]"
-    },
-]
+  {
+    name: 'Nodejs',
+    score: 'w-[90%]',
+  },
+  {
+    name: 'Express.js',
+    score: 'w-[90%]',
+  },
+  {
+    name: 'MongoDB',
+    score: 'w-[95%]',
+  },
+  {
+    name: 'MySQL',
+    score: 'w-[100%]',
+  },
+  {
+    name: 'PostgreSQL',
+    score: 'w-[100%]',
+  },
+];
 
 export const design: ItemInterface[] = [
-    {
-        name: 'Illustrator',
-        score: "w-[100%]"
-    },
-    {
-        name: 'Photoshop',
-        score: "w-[50%]"
-    },
-]
+  {
+    name: 'Photoshop',
+    score: 'w-[90%]',
+  },
+  {
+    name: 'Figma',
+    score: 'w-[70%]',
+  },
+];
 
 export const principles: ItemInterface[] = [
-    {
-        name: 'Clean Code',
-        score: "w-[100%]"
-    },
-    {
-        name: 'Keep It Simple',
-        score: "w-[100%]"
-    },
-    {
-        name: 'Don\'t repeat yourself',
-        score: "w-[100%]"
-    },
-]
+  {
+    name: 'Cleanliness',
+    score: 'w-[98%]',
+  },
+  {
+    name: 'Componentization',
+    score: 'w-[100%]',
+  },
+  { name: 'Responsive Design', score: 'w-[100%]' },
+];
 
 export const languages: ItemInterface[] = [
-    {
-        name: 'Spanish',
-        score: "w-[100%]"
-    },
-    {
-        name: 'English',
-        score: "w-[80%]"
-    },
-]
+  {
+    name: 'Spanish',
+    score: 'w-[100%]',
+  },
+  {
+    name: 'English',
+    score: 'w-[100%]',
+  },
+];
