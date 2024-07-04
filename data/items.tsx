@@ -47,10 +47,11 @@ export const employments: DetailInterface[] = [
   {
     name: 'Peravia Industrial - La Famosa ',
     year: '2021 - Present',
-    description: 'Programmer Analyst',
+    description: 'Fullstack Web Developer',
     list: [
-      'Led FullStack Calidad V2.0 (React, Next.JS, Node.js, Express.js, MongoDB) with focus on user experience and performance (100% engagement increase).',
+      'Led FullStack Calidad V2.0 (React, Next.JS, Node.js, Express.js, MongoDB, Prisma, NextAuth) with focus on user experience and performance, achieving a 100% engagement increase.',
       'Developed data analysis tools reducing processing time by 50%.',
+      'Implemented NextAuth for secure user authentication, enhancing application security and user management.',
       'Prioritized user-centric design in FullStack Calidad V2.0, achieving accessibile and intuitive navigation.',
       'Agile project management ensured timely delivery.',
     ],
@@ -58,21 +59,13 @@ export const employments: DetailInterface[] = [
   {
     name: 'Peravia Industrial - La Famosa',
     year: '2017 - 2020',
+    description: 'Backend Developer',
     list: [
       'Built Siembra V2.0 (C#, MSSQL) improving user experience and streamlining workflows with Agile methodologies.',
       'Optimized Siembra V2.0 performance through innovative solutions and database expertise.',
       'Collaborated with cross-functional team.',
     ],
   },
-  // {
-  //   name: 'Digital Media Lab - Xavier University',
-  //   year: '2014 - 2015',
-  //   list: [
-  //     'Created and refined educational videos for faculty and students, expanding the multimedia resources of the institution.',
-  //     'Instructed students in advanced recording and editing software, contributing to a more skilled user base in the lab.',
-  //     'Expanded software proficiency by learning Adobe After Effects.',
-  //   ],
-  // },
 ];
 
 export interface ItemInterface {
@@ -83,11 +76,15 @@ export interface ItemInterface {
 export const programingLanguages: ItemInterface[] = [
   {
     name: 'Javascript',
-    score: 'w-[100%]',
+    score: 'w-[95%]',
+  },
+  {
+    name: 'Typescript',
+    score: 'w-[90%]',
   },
   {
     name: 'SQL',
-    score: 'w-[100%]',
+    score: 'w-[90%]',
   },
   {
     name: 'Python',
@@ -101,16 +98,12 @@ export const frontEnd: ItemInterface[] = [
     score: 'w-[90%]',
   },
   {
-    name: 'Next.js',
-    score: 'w-[95%]',
-  },
-  {
-    name: 'Typescript',
-    score: 'w-[70%]',
-  },
-  {
     name: 'Tailwind CSS',
-    score: 'w-[95%]',
+    score: 'w-[90%]',
+  },
+  {
+    name: 'Next.js',
+    score: 'w-[90%]',
   },
   {
     name: 'MUI',
@@ -138,6 +131,14 @@ export const backEnd: ItemInterface[] = [
   {
     name: 'PostgreSQL',
     score: 'w-[100%]',
+  },
+  {
+    name: 'Prisma',
+    score: 'w-[90%]',
+  },
+  {
+    name: 'NextAuth',
+    score: 'w-[80%]',
   },
 ];
 

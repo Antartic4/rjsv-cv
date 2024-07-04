@@ -160,7 +160,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-xs">
-                    Surfing, Video Games, Meditation, Golf
+                    Surfing, Video Games, Golf, and Baking bread
                   </span>
                 </div>
               </div>
@@ -174,7 +174,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col text-sm">
               {programingLanguages.map((item) => (
-                <Item item={item} key={item.name} color="bg-red-400" />
+                <Item item={item} key={item.name} color="bg-purple-800" />
               ))}
             </div>
           </div>
@@ -184,7 +184,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col text-sm">
               {frontEnd.map((item) => (
-                <Item item={item} key={item.name} color="bg-rose-400" />
+                <Item item={item} key={item.name} color="bg-purple-800" />
               ))}
             </div>
           </div>
@@ -194,7 +194,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col text-sm">
               {backEnd.map((item) => (
-                <Item item={item} key={item.name} color="bg-rose-400" />
+                <Item item={item} key={item.name} color="bg-purple-800" />
               ))}
             </div>
           </div>
@@ -204,7 +204,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col text-sm">
               {design.map((item) => (
-                <Item item={item} key={item.name} color="bg-rose-400" />
+                <Item item={item} key={item.name} color="bg-purple-800" />
               ))}
             </div>
           </div>
@@ -216,7 +216,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col text-sm">
               {principles.map((item) => (
-                <Item item={item} key={item.name} color="bg-rose-400" />
+                <Item item={item} key={item.name} color="bg-purple-800" />
               ))}
             </div>
           </div>
@@ -226,7 +226,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col text-sm">
               {languages.map((item) => (
-                <Item item={item} key={item.name} color="bg-red-400" />
+                <Item item={item} key={item.name} color="bg-purple-800" />
               ))}
             </div>
           </div>
